@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de problemas</title>
+    <link rel="stylesheet" href="problemas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="videos.js" defer></script>
+</head>
+<body>
+    <div id="botonInicio">
+        <a href="principal.html"><button id="redireccionar"><font size="6" color="white">ExploraKids</font></fon></button></a>
+    </div>
+    <br id="saltoInduccion">
+    <br>
+    <a id="arriba" href="#botonInicio"><button><img src="imagenes/flechaArriba.png" width="40px"></button></a>
+    <div class="container1">
+        <div class="logo">
+            <a href="principal.html"><img src="imagenes/logo.png" class="logo" width="200"></a>        
+        </div>
+    </div>
+    <div class="redesSociales">
+        <a href="https://www.tiktok.com/@explora.kids_?_t=ZS-8z7kXDKKyv9&_r=1" target="_blank"><img src="imagenes/tiktok.avif"></a>
+        <br>
+        <a href="https://www.instagram.com/explora.kids_?igsh=c3hqYm9vNjFxYjFq" target="_blank"><img src="imagenes/instagram.png"></a>
+    </div>
+    <div class="zorro">
+        <img src="imagenes/zorro2.png" width="200">
+    </div>
+    <header>
+        <div id="lugar">
+            <p>Análisis de problemas</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#saltoSuma"><img src="imagenes/iconoSuma.png"></a>
+                    <ul>
+                        <li><a href="#saltoSuma">Teoría</a></li>
+                        <li><a href="#videoSuma">Video</a></li>
+                    </ul>
+                </li>
+                <li><a href="#saltoResta"><img src="imagenes/iconoResta.png"></a>
+                    <ul>
+                        <li><a href="#saltoResta">Teoría</a></li>
+                        <li><a href="#videoResta">Video</a></li>
+                    </ul>
+                </li>
+                <li><a href="#saltoMultiplicacion"><img src="imagenes/iconoMultiplicacion.png"></a>
+                    <ul>
+                        <li><a href="#saltoMultiplicacion">Teoría</a></li>
+                        <li><a href="#videoMultiplicacion">Video</a></li>
+                    </ul>
+                </li>
+                <li><a href="#saltoDivision"><img src="imagenes/iconoDivision.png"></a>
+                    <ul>
+                        <li><a href="#saltoDivision">Teoría</a></li>
+                        <li><a href="#videoDivision">Video</a></li>
+                    </ul>
+                </li>
+                <li><a href="#saltoActividades"><img src="imagenes/iconoActividades.png"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="overlay" id="videoOverlay">
+        <div class="video-container" onclick="event.stopPropagation();">
+            <span class="close-btn" onclick="cerrarVideo()">&times;</span>
+            <iframe id="youtubePlayer" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="problemas" id="introduccion">
+        <div class="info">
+            <h1>Análisis de problemas</h1>
+            <p>
+                A veces los problemas de matemáticas parecen un reto, 
+                pero si lees con calma encontrarás las palabras mágicas que 
+                te dicen qué operación usar.
+            </p>
+        </div>
+    </div>
+    <div class="salto"><br id="saltoSuma"><br></div>
+    <div class="problemas" id="problemasSuma">
+        <div class="info">
+            <div class="texto">
+                <h3>Análisis de Suma</h3>
+                <p>
+                    “En el parque hay 8 niños y llegan 5 más. ¿Cuántos niños hay en total?”
+                </p>
+                <div class="pasoapaso">
+                    <ul>
+                        <li>Palabra clave: en total → Suma</li>
+                        <li>Operación: 8 + 5 = 13</li>
+                        <li id="videoSuma">Respuesta: Hay 13 niños.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video">
+                <div class="videoContenedor">
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/1O5_O01fdxM')"
+                     src="imagenes/miniaturaSuma.png" type="video/mp4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="salto"><br id="saltoResta"><br></div>
+    <div class="problemas" id="problemasResta">
+        <div class="info">
+            <div class="texto">
+                <h3>Análisis de Resta</h3>
+                <p>
+                    “Tenías 10 galletas, pero te comiste 4. ¿Cuántas te quedan?”
+                </p>
+                <div class="pasoapaso">
+                    <ul>
+                        <li>Palabra clave: quedan → Resta</li>
+                        <li>Operación: 10 - 4 = 6</li>
+                        <li id="videoResta">Respuesta: Te quedan 6 galletas.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video">
+                <div class="videoContenedor">
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/SGeuw8PH9Pc')"
+                     src="imagenes/miniaturaResta.png" type="video/mp4">
+            </div>
+        </div>
+    </div>
+    <div class="salto"><br id="saltoMultiplicacion"><br></div>
+    <div class="problemas" id="problemasMultiplicacion">
+        <div class="info">
+            <div class="texto">
+                <h3>Análisis de Multiplicación</h3>
+                <p>
+                    “Laura compró 3 bolsas con 5 manzanas cada una. ¿Cuántas manzanas tiene en total?”
+                </p>
+                <div class="pasoapaso">
+                    <ul>
+                        <li>Palabra clave: cada una → Multiplicación</li>
+                        <li>Operación: 3 × 5 = 15</li>
+                        <li id="videoMultiplicacion">Respuesta: Tiene 15 manzanas.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video">
+                <div class="videoContenedor">
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/SGeuw8PH9Pc')"
+                     src="imagenes/miniaturaMultiplicacion.png" type="video/mp4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="salto"><br id="saltoDivision"><br></div>
+    <div class="problemas" id="problemasDivivion">
+        <div class="info">
+            <div class="texto">
+                <h3>Análisis de División</h3>
+                <p>
+                    “Un pastel se parte en 8 pedazos y se reparten entre 4 
+                    amigos. ¿Cuántos pedazos recibe cada uno?”
+                </p>
+                <div class="pasoapaso">
+                    <ul>
+                        <li>Palabra clave: repartir → División</li>
+                        <li>Operación: 8 ÷ 4 = 2</li>
+                        <li id="videoDivision">Respuesta: Cada uno recibe 2 pedazos.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video">
+                <div class="videoContenedor">
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/H17pB5vzVls')"
+                     src="imagenes/miniaturaDivisionProblemas.png" type="video/mp4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" id="iframeOverlay">
+        <span class="close-btn1" onclick="cerrarIframe()">&times;</span>
+        <div class="iframe-container" onclick="event.stopPropagation();">
+            <iframe id="miIframe" src="" ></iframe>
+        </div>
+    </div>
+    <div class="salto"><br id="saltoActividades"><br></div>
+    <div class="problemas" id="actividades">
+        <div class="info">
+            <h3>Actividades</h3>
+            <p>Da click en la imagen para ingresar a las actvidades</p>
+            <div class="links">
+                <button onclick="abrirIframe('https://wayground.com/embed/quiz/68b050c7aa582d0193e35f08')">
+                    <img src="imagenes/Actividad1.jpg">
+                </button>
+                <button onclick="abrirIframe('https://wayground.com/embed/quiz/68efbcd56544fe6d9cdd8917')">
+                    <img src="imagenes/Actividad2.jpg">
+                </button>
+                <button onclick="abrirIframe('https://wayground.com/embed/quiz/68efc0acc916952cbe833436')">
+                    <img src="imagenes/Actividad3.jpg">
+                </button>
+            </div>
+            <br>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <div>
+            <p>© 2025 ExploraKids.</p>
+            <p>Proyecto de grado diseñado para fortalecer el aprendizaje <br>de las matemáticas en niños de 8 a 9 años.</p>
+            <p>Desarrollado por:<br>
+                Sindy Bustamante.<br>
+                Camila Niño.
+            </p>
+        </div>
+        <div>
+            <p>Institución educativa:<br>
+                Colegio Comfaboy.
+            </p>
+            <p>Asesor:<br>
+                Ing. Mario Pineda.<br>
+                Ing. Andrea Gonzalez.
+            </p>
+            <p>Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

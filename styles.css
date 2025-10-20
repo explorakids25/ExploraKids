@@ -1,0 +1,119 @@
+div{
+    text-align: center;
+}
+#nombre{
+    background-color: #255772;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: auto;
+}
+#redireccionar{
+  background-color: #255772;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  border-style: none;
+  font-family: 'Winky Sans';
+}
+body{
+    background-color:  #b9caee;
+    font-family: 'Winky Sans';
+    overflow-x: hidden;
+}
+.logo:hover {
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.logo{
+    float: left;
+    justify-content: left;
+}
+.zorro{
+    background-color: #faefef;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    background-image: url(imagenes/Fondo.png);
+    background-size: cover;
+}
+.info{
+    background-color: #faefef;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.links{
+    padding: 10px;
+    margin: 30px;
+    font-size: 18px;
+    background: #faefef;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: miniZoom 3s ease-in-out infinite;
+}
+@keyframes miniZoom {
+    0%   { transform: scale(1); }  
+    50%  { transform: scale(1.1); }   
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.links img{
+    width: 80%;
+}
+
+.container1{
+    position: fixed;
+    top: 70px;
+    left: 5px;
+}
+
+.container2{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.redesSociales{
+    position: fixed;
+    bottom: 40%;
+    right: 10%;
+}
+.redesSociales a img{
+    border-radius: 20px;
+    width: 40px;
+}
+.redesSociales a img:hover{
+    transform: scale(1.05);
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a5b4d4;
+    width: 101%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: -1px;
+    right: 1px;
+    font-size: 14px;
+    height: 210px;
+    text-align: center;
+}
+footer > div{
+    width: 50%;
+    margin: 0px;
+    padding: 10px;
+}

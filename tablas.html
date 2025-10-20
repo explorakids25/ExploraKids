@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tablas de multiplicar</title>
+    <link rel="stylesheet" href="tablas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="videos.js" defer></script>
+</head>
+<body>
+    <div id="botonInicio">
+      <a href="principal.html"><button id="redireccionar"><font size="6"color="white">ExploraKids</font></button></a>
+    </div>
+    <header>
+        <div id="lugar">
+            <p>Tablas de multiplicar</p>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a><img src="imagenes/iconoTablas.png"></a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="#salto1">Tabla del 1</a></li>
+                            <li><a href="#salto2">Tabla del 2</a></li>
+                            <li><a href="#salto3">Tabla del 3</a></li>
+                            <li><a href="#salto4">Tabla del 4</a></li>
+                            <li><a href="#salto5">Tabla del 5</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#salto6">Tabla del 6</a></li>
+                            <li><a href="#salto7">Tabla del 7</a></li>
+                            <li><a href="#salto8">Tabla del 8</a></li>
+                            <li><a href="#salto9">Tabla del 9</a></li>
+                            <li><a href="#salto10">Tabla del 10</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#saltoActividades"><img src="imagenes/iconoActividades.png"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="overlay" id="videoOverlay">
+      <div class="video-container" onclick="event.stopPropagation();">
+            <span class="close-btn" onclick="cerrarVideo()">&times;</span>
+            <iframe id="youtubePlayer" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="salto"><br id="saltoInduccion"><br></div>
+    <div class="tablas" id="introduccion">
+        <div class="info">
+            <h1>Tablas de multiplicar</h1>
+            <p>
+                Las tablas de multiplicar son como atajos mágicos para sumar rápido 
+                el mismo número varias veces.<br>
+                Aprenderlas te ayudará a resolver operaciones con mayor facilidad.
+            </p>
+            <p>
+                ¡Veamos cada tabla del 1 al 10!
+            </p>
+        </div>
+    </div>
+    <div class="salto"><br id="salto1"><br></div>
+    <div class="tablas" id="tabladel1">
+        <div class="info">
+            <div class="texto">
+                <h3>Tabla del 1</h3>
+                <div class="explicacion">
+                    <ul>
+                        <li>La tabla más fácil de todas</li>
+                        <li>Todo numero multiplicado por 1, se queda igual</li>
+                        <li id="video1">Ejemplo: 1 × 6 = 6</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video">
+                <div class="videoContenedor">
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/Lts7bwYPVDY')"
+                     src="imagenes/miniatura.png" type="video/mp4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="salto"><br id="salto2"><br></div>
+    <div class="tablas" id="tabladel2">
+        <div class="info">
+            <div class="texto">
+                <h3>Tabla del 2</h3>
+                <div class="explicacion">
+                    <ul>
+                        <li>Es como sumar de dos en dos.</li>
+                        <li id="video2">Ejemplo: 2 × 4 = 8</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video">
+                <div class="videoContenedor">
+                    
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/ytNT-icJD7M')"
+                     src="imagenes/miniatura.png" type="video/mp4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="salto"><br id="salto3"><br></div>
+    <div class="tablas" id="tabladel3">
+        <div class="info">
+            <div class="texto">
+                <h3>Tabla del 3</h3>
+                <div class="explicacion">
+                    <ul>
+                        <li>Aquí sumamos de tres en tres.</li>
+                        <li id="video3">Ejemplo: 3 × 5 = 15</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video">
+                <div class="videoContenedor">
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/ACJeW-myEHg')"
+                     src="imagenes/miniatura.png" type="video/mp4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="salto"><br id="salto4"><br></div>
+    <div class="tablas" id="tabladel4">
+        <div class="info">
+            <div class="texto">
+                <h3>Tabla del 4</h3>
+                <div class="explicacion">
+                    <ul>
+                        <li>Se trata de sumar de cuatro en cuatro.</li>
+                        <li id="video4">Ejemplo: 4 × 6 = 24</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video">
+                <div class="videoContenedor">
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/-012k4Mjs1E')"
+                     src="imagenes/miniatura.png" type="video/mp4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="salto"><br id="salto5"><br></div>
+    <div class="tablas" id="tabladel5">
+        <div class="info">
+            <div class="texto">
+                <h3>Tabla del 5</h3>
+                <div class="explicacion">
+                    <ul>
+                        <li>Muy fácil, solo contamos de cinco en cinco.</li>
+                        <li id="video5">Ejemplo: 5 × 7 = 35</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video">
+                <div class="videoContenedor">
+                    
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/ThpymIC7pz8')"
+                     src="imagenes/miniatura.png" type="video/mp4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="salto"><br id="salto6"><br></div>
+    <div class="tablas" id="tabladel6">
+        <div class="info">
+            <div class="texto">
+                <h3>Tabla del 6</h3>
+                <div class="explicacion">
+                    <ul>
+                        <li>Avanzamos de seis en seis.</li>
+                        <li id="video6">Ejemplo: 6 × 4 = 24</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video">
+                <div class="videoContenedor">
+                    
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/thiuHy0FuFQ')"
+                     src="imagenes/miniatura.png" type="video/mp4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="salto"><br id="salto7"><br></div>
+    <div class="tablas" id="tabladel7">
+        <div class="info">
+            <div class="texto">
+                <h3>Tabla del 7</h3>
+                <div class="explicacion">
+                    <ul>
+                        <li>Un poco más difícil, pero se aprende con práctica.</li>
+                        <li id="video7">Ejemplo: 7 × 8 = 56</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video">
+                <div class="videoContenedor">
+                    
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/hLLOnZDanug')"
+                     src="imagenes/miniatura.png" type="video/mp4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="salto"><br id="salto8"><br></div>
+    <div class="tablas" id="tabladel8">
+        <div class="info">
+            <div class="texto">
+                <h3>Tabla del 8</h3>
+                <div class="explicacion">
+                    <ul>
+                        <li>Aquí vamos de ocho en ocho.</li>
+                        <li id="video8">Ejemplo: 8 × 3 = 24</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video">
+                <div class="videoContenedor">
+                    
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/FRGdTvHN0tE')"
+                     src="imagenes/miniatura.png" type="video/mp4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="salto"><br id="salto9"><br></div>
+    <div class="tablas" id="tabladel9">
+        <div class="info">
+            <div class="texto">
+                <h3>Tabla del 9</h3>
+                <div class="explicacion">
+                    <ul>
+                        <li>Tiene un truco: los resultados suben en la primera cifra y bajan en la segunda.</li>
+                        <li id="video9">Ejemplo: 9 × 4 = 36</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video">
+                <div class="videoContenedor">
+                    
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/JuqeJH6wmX8')"
+                     src="imagenes/miniatura.png" type="video/mp4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="salto"><br id="salto10"><br></div>
+    <div class="tablas" id="tabladel10">
+        <div class="info">
+            <div class="texto">
+                <h3>Tabla del 10</h3>
+                <div class="explicacion">
+                    <ul>
+                        <li>La más divertida. Solo agregamos un 0 al final del número.</li>
+                        <li id="video10">Ejemplo: 10 × 7 = 70</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video">
+                <div class="videoContenedor">
+                    
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/ssgDxgh4-Nk')"
+                     src="imagenes/miniatura.png" type="video/mp4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" id="iframeOverlay">
+        <span class="close-btn1" onclick="cerrarIframe()">&times;</span>
+        <div class="iframe-container" onclick="event.stopPropagation();">
+            <iframe id="miIframe" src=""></iframe>
+        </div>
+    </div>
+    <div class="salto"><br id="saltoActividades"><br></div>
+    <div class="tablas" id="actividades">
+        <div class="info">
+            <h3>Actividades</h3>
+            <p>Da click en la imagen para ingresar a las actvidades</p>
+            <div class="links">
+                <button onclick="abrirIframe('https://wayground.com/embed/quiz/68a8ce2dbc153b0facecde75')">
+                    <img src="imagenes/Actividad1.jpg">
+                </button>
+                <button onclick="abrirIframe('https://wayground.com/embed/quiz/68c19f88e8e8a25932d20e21')">
+                    <img src="imagenes/Actividad2.jpg">
+                </button>
+                <button onclick="abrirIframe('https://wayground.com/embed/quiz/68efc43444a22e7b7007d4f5')">
+                    <img src="imagenes/Actividad3.jpg">
+                </button>
+            </div>
+            <br>
+        </div>
+    </div>
+    <a id="arriba" href="#botonInicio"><button><img src="imagenes/flechaArriba.png" width="40px"></button></a>
+    <div class="container1">
+        <div class="logo">
+            <a href="principal.html"><img src="imagenes/logo.png" class="logo" width="200"></a>
+        </div>
+    </div>
+    <div class="zorro">
+        <img src="imagenes/zorro2.png" width="200">
+    </div>
+    <div class="redesSociales">
+        <a href="https://www.tiktok.com/@explora.kids_?_t=ZS-8z7kXDKKyv9&_r=1" target="_blank"><img src="imagenes/tiktok.avif"></a>
+        <br>
+        <a href="https://www.instagram.com/explora.kids_?igsh=c3hqYm9vNjFxYjFq" target="_blank"><img src="imagenes/instagram.png"></a>
+    </div>
+    <br>
+    <footer>
+        <div>
+            <p>© 2025 ExploraKids.</p>
+            <p>Proyecto de grado diseñado para fortalecer el aprendizaje <br>de las matemáticas en niños de 8 a 9 años.</p>
+            <p>Desarrollado por:<br>
+                Sindy Bustamante.<br>
+                Camila Niño.
+            </p>
+        </div>
+        <div>
+            <p>Institución educativa:<br>
+                Colegio Comfaboy.
+            </p>
+            <p>Asesor:<br>
+                Ing. Mario Pineda.<br>
+                Ing. Andrea Gonzalez.
+            </p>
+            <p>Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

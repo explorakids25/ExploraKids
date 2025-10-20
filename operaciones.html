@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Operaciones Básicas</title>
+    <link rel="stylesheet" href="operaciones.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="videos.js" defer></script>
+</head>
+<body>
+    <div id="botonInicio">
+      <a href="principal.html"><button id="redireccionar"><font size="6"color="white">ExploraKids</font></button></a>
+    </div>
+    <br id="saltoInduccion">
+    <br>
+    <header>
+      <div id="lugar">
+        <p>Operaciones Básicas</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#saltoSuma"><img src="imagenes/iconoSuma.png"></a>
+            <ul>
+              <li><a href="#saltoSuma">Teoría</a></li>
+              <li><a href="#videoSuma">Video</a></li>
+            </ul>
+          </li>
+          <li><a href="#saltoResta"><img src="imagenes/iconoResta.png"></a>
+            <ul>
+              <li><a href="#saltoResta">Teoría</a></li>
+              <li><a href="#videoResta">Video</a></li>
+            </ul>
+          </li>
+          <li><a href="#saltoMultiplicacion"><img src="imagenes/iconoMultiplicacion.png"></a>
+            <ul>
+              <li><a href="#saltoMultiplicacion">Teoría</a></li>
+              <li><a href="#videoMultiplicacion">Video</a></li>
+            </ul>
+          </li>
+          <li><a href="#saltoDivision"><img src="imagenes/iconoDivision.png"></a>
+            <ul>
+              <li><a href="#saltoDivision">Teoría</a></li>
+              <li><a href="#videoDivision">Video</a></li>
+            </ul>
+          </li>
+          <li><a href="#saltoActividades"><img src="imagenes/iconoActividades.png"></a></li>
+        </ul>
+      </nav>
+    </header>
+  <div class="overlay" id="videoOverlay">
+    <div class="video-container" onclick="event.stopPropagation();">
+            <span class="close-btn" onclick="cerrarVideo()">&times;</span>
+            <iframe id="youtubePlayer" src="" frameborder="0" allowfullscreen></iframe>
+      </div>
+  </div>
+  <a href="#botonInicio" id="arriba"><button><img src="imagenes/flechaArriba.png" width="40px"></button></a>
+  <div class="container1">
+    <div class="logo">
+      <a href="principal.html"><img src="imagenes/logo.png" class="logo" width="200"></a> 
+    </div>
+  </div>
+  <div class="redesSociales">
+    <a href="https://www.tiktok.com/@explora.kids_?_t=ZS-8z7kXDKKyv9&_r=1" target="_blank"><img src="imagenes/tiktok.avif"></a>
+    <br>
+    <a href="https://www.instagram.com/explora.kids_?igsh=c3hqYm9vNjFxYjFq" target="_blank"><img src="imagenes/instagram.png"></a>
+  </div>
+  <div class="zorro">
+    <img src="imagenes/zorro2.png" height="200px">
+  </div>
+  <div id="introduccion" class="operaciones">
+    <div class="info">
+      <h1>Operaciones Básicas</h1>
+      <p>
+        Las operaciones básicas son como los <b>superpoderes secretos</b> de los números. 
+        Gracias a ellas podemos resolver muchos problemas de la vida diaria: desde 
+        contar cuántos lápices tienes en tu cartuchera, repartir dulces entre tus amigos 
+        o calcular cuántos minutos faltan para que empiece tu programa favorito.
+      </p>
+      <p>
+        En matemáticas tenemos <b>cuatro operaciones principales: suma, resta, multiplicación 
+        y división.</b> Cada una tiene una misión especial y cuando las aprendes a usar, te 
+        conviertes en un verdadero <b>héroe de las matemáticas.</b>
+      </p>
+    </div>
+  </div>
+  <div class="salto"><br id="saltoSuma"><br></div>
+  <div id="suma" class="operaciones">
+    <div class="info">
+      <div class="texto">
+        <h3>Suma</h3>
+        <p>
+          La suma es el poder de <b>juntar</b>. Sirve para unir cantidades y descubrir cuánto tienes en total.<br>
+          Ejemplo: “Si tienes 8 manzanas  y tu amigo te da 7 más, ahora tienes 15.”
+        </p>
+        <p>
+          Es como si cada número fuera una pieza de lego y la suma las uniera para construir algo más grande.
+        </p>
+        <p>
+          La usamos cuando vamos de compras y queremos saber cuánto cuesta todo lo que llevamos, o cuando 
+          contamos cuántos puntos llevamos en un juego.
+        </p>
+        <div class="propiedades">
+          <h3>Propiedades</h3>
+          <ul>
+            <li><b>Conmutativa:</b> El orden no cambia el resultado.</li>
+            <p>Ejemplo: 3 + 5 = 5 + 3 (¡Siempre es 8!)</p>
+            <li>Es como cambiar el orden de dos helados , pero seguir teniendo la misma cantidad.</li>
+          </ul>
+          <ul>
+            <li><b>Asociativa:</b> Si sumas tres o más números, puedes agruparlos como quieras y el 
+              resultado será el mismo.</li>
+            <p>Ejemplo: (2 + 4) + 3 = 2 + (4 + 3)<p>
+            <li>Es como juntar globos en diferentes grupos, pero al final tienes el mismo número de globos.</li>
+          </ul>
+          <ul>
+            <li><b>Elemento neutro:</b> Cuando sumas <b>0</b>, el número no cambia.</li>
+            <p>Ejemplo: 7 + 0 = 7</p>
+            <li id="videoSuma">Es como si no agregaras nada a tu colección de carritos.</li> 
+          </ul>
+        </div>
+      </div>
+      <div class="video">
+        <div class="videoContenedor">
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/zSO43RZV6DA')"
+                     src="imagenes/miniaturaOperaciones.png" type="video/mp4">
+                </div>
+      </div>
+    </div>
+  </div>
+  <div class="salto"><br id="saltoResta"><br></div>
+  <div id="resta" class="operaciones">
+    <div class="info">
+      <div class="texto">
+        <h3>Resta</h3>
+        <p>
+          La resta es el poder de <b>quitar</b>. Nos dice cuánto queda después de perder, gastar o usar algo.<br>
+          Ejemplo: “Si tienes 8 galletas  y te comes 3, ahora te quedan 5.”
+        </p>
+        <p>
+          Es como tener una caja de crayones y sacar algunos: los que quedan dentro son el resultado de 
+          la resta.
+        </p>
+        <p>
+          También la usamos para saber cuántos minutos faltan para que termine el recreo o cuántas 
+          fichas necesitamos para ganar un juego.
+        </p>
+        <div class="propiedades">
+          <h3>Propiedades</h3>
+          <ul>
+            <li>La resta no tiene todas las propiedades mágicas de la suma, pero sí hay cosas que recordar:</li>
+            <p>
+              No es conmutativa: 8 - 5 no es lo mismo que 5 - 8.<br>
+              No es asociativa: Cambiar los paréntesis puede cambiar el resultado.
+            </p>
+            <li id="videoResta">Es como si te comieras un pastel : si lo quitas en otro orden, ¡el resultado cambia!</li>
+          </ul>
+        </div>
+      </div>
+      <div class="video">
+        <div class="videoContenedor">
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/7HaS_WXbcMk')"
+                     src="imagenes/miniaturaOperaciones.png" type="video/mp4">
+                </div>
+      </div>
+    </div>
+  </div>
+  <div class="salto"><br id="saltoMultiplicacion"><br></div>
+  <div id="multiplicacion" class="operaciones">
+    <div class="info">
+      <div class="texto">
+        <h3>Multiplicación</h3>
+        <p>
+          La multiplicación es como una <b>suma súper rápida</b>. Cuando tenemos que sumar muchas veces el 
+          mismo número, la multiplicación nos ahorra tiempo.<br>
+          Ejemplo: “Si tienes 3 cajas y cada una tiene 4 chocolates, en total tienes 12 chocolates.”
+        </p>
+        <p>
+          Es como hacer magia: en vez de sumar 4 + 4 + 4, simplemente dices 3 × 4 y ¡listo!
+        </p>
+        <p>
+          La usamos para contar cuántos asientos hay en un cine si sabemos cuántas filas 
+          y cuántas sillas hay en cada fila, o para calcular cuántos días hay en varias semanas.
+        </p>
+        <div class="propiedades">
+          <h3>Propiedades</h3>
+          <ul>
+            <li>Conmutativa: El orden no cambia el resultado.</li>
+            <p>Ejemplo: 4 × 6 = 6 × 4</p>
+            <li>Es como poner las fichas de dominó en cualquier orden y seguir teniendo el mismo total.</li>
+          </ul>
+          <ul>
+            <li> Asociativa: Puedes agrupar los números como quieras y el resultado será el mismo.</li>
+            <p>Ejemplo: (2 × 3) × 4 = 2 × (3 × 4)</p>
+            <li>Es como juntar cajas antes o después, pero siempre con la misma cantidad de cosas.</li>
+          </ul>
+          <ul>
+            <li>Elemento neutro: Cuando multiplicas por <b>1</b>, el número no cambia.</li>
+            <p>Ejemplo: 9 × 1 = 9</p>
+            <li>Es como poner un espejo a tu número: se queda igual.</li>
+          </ul>
+          <ul>
+            <li>Propiedad distributiva: La multiplicación se puede repartir sobre la suma o la resta.</li>
+            <p>Ejemplo: 3 × (4 + 2) = (3 × 4) + (3 × 2)</p>
+            <li id="videoMultiplicacion">Es como repartir chocolates a dos grupos y luego sumarlos.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="video">
+        <div class="videoContenedor">
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/vIQNOmk2FrU')"
+                     src="imagenes/miniaturaOperaciones.png" type="video/mp4">
+                </div>
+      </div>
+    </div>
+  </div>
+  <div class="salto"><br id="saltoDivision"><br></div>
+  <div id="division" class="operaciones">
+    <div class="info">
+      <div class="texto">
+        <h3>División</h3>
+        <p>
+          La división es el poder de <b>repartir de forma justa</b>. Sirve para separar en grupos iguales 
+          o para saber cuántas veces cabe un número dentro de otro.<br>
+          Ejemplo: “Si tienes 10 caramelos  y los repartes entre 5 amigos, cada uno recibe 2.”
+        </p>
+        <p>
+          Es como cortar una pizza en porciones para que todos reciban la misma cantidad.
+        </p>
+        <p>
+          También la usamos cuando queremos saber cuántos viajes necesitamos para llevar varias 
+          cajas, o cuántas personas pueden jugar si tenemos un número limitado de pelotas.
+        </p>
+        <div class="propiedades">
+          <h3>Propiedades</h3>
+          <ul>
+            <li>La división tiene menos propiedades y no todas las de la multiplicación:</li>
+            <p>
+              No es conmutativa: 10 ÷ 2 no es lo mismo que 2 ÷ 10.<br>
+              No es asociativa: Cambiar el orden de los paréntesis cambia el resultado.<br>
+              Elemento neutro: Dividir un número entre 1 no lo cambia.<br id="videoDivision">
+            </p>
+            <br>
+          </ul>
+        </div>
+      </div>
+      <div class="video">
+        <div class="videoContenedor">
+                    <img class="video-thumb" onclick="abrirVideo('https://youtu.be/RaVIW0DBgkE')"
+                     src="imagenes/miniaturaOperaciones.png" type="video/mp4">
+                </div>
+      </div>
+    </div>
+  </div>
+  <div class="salto"><br id="saltoActividades"><br></div>
+  <div class="overlay" id="iframeOverlay">
+    <span class="close-btn1" onclick="cerrarIframe()">&times;</span>
+    <div class="iframe-container" onclick="event.stopPropagation();">
+      <iframe id="miIframe" src=""></iframe>
+    </div>
+  </div>
+  <div class="operaciones" id="actividades"> 
+    <div class="info">
+      <h3>Actividades</h3>
+      <p>Da click en la imagen para ingresar a las actvidades</p>
+      <div class="links">
+        <button onclick="abrirIframe('https://wayground.com/embed/quiz/68a8857a7a003f8c132d99c8')">
+          <img src="imagenes/Actividad1.jpg">
+        </button>
+        <button onclick="abrirIframe('https://wayground.com/embed/quiz/68c197ed7041180b76dd1cb5')">
+          <img src="imagenes/Actividad2.jpg">
+        </button>
+        <button onclick="abrirIframe('https://wayground.com/embed/quiz/68d6ae52c39941f0f0b74c43')">
+          <img src="imagenes/Actividad3.jpg">
+        </button>
+      </div>
+      <br>
+    </div>
+  </div>
+  <br>
+   <footer>
+        <div>
+            <p>© 2025 ExploraKids.</p>
+            <p>Proyecto de grado diseñado para fortalecer el aprendizaje <br>de las matemáticas en niños de 8 a 9 años.</p>
+            <p>Desarrollado por:<br>
+                Sindy Bustamante.<br>
+                Camila Niño.
+            </p>
+        </div>
+        <div>
+            <p>Institución educativa:<br>
+                Colegio Comfaboy.
+            </p>
+            <p>Asesor:<br>
+                Ing. Mario Pineda.<br>
+                Ing. Andrea Gonzalez.
+            </p>
+            <p>Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

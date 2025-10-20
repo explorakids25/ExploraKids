@@ -1,0 +1,302 @@
+#redireccionar{
+  background-color: #255772;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  border-style: none;
+  font-family:'Winky Sans';
+  z-index: 10;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+#redireccionar:hover{
+  cursor: pointer;
+  background-color: #1b445a;
+  transform: scale(1.05);
+}
+.logo{
+    float: left;
+}
+.logo:hover {
+      color: white;
+      cursor: pointer;
+      transform: scale(1.05);
+}
+body{
+    background-color:  #b9caee;
+    font-size: 20px;
+    font-family:'Winky Sans';
+    overflow-x: hidden;
+}
+h1{
+  font-size: 45px;
+}
+.container1{
+  position: fixed;
+  top: 70px;
+  left: 5px;
+}
+.zorro{
+  position: fixed;
+  left: 5px;
+  bottom: 10px;
+}
+.redesSociales{
+  position: fixed;
+  bottom: 40%;
+  right: 10%;
+  cursor: pointer;
+}
+.redesSociales a img{
+  border-radius: 20px;
+  width: 40px;
+}
+.redesSociales a img:hover{
+  transform: scale(1.05);
+}
+.video-thumb{
+  width: 50%;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+.video-thumb:hover {
+  transform: scale(1.05);
+}
+.overlay{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+.video-container{
+  position: relative;
+  max-height: 95%;
+  width: 80%;
+  max-width: 900px;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+.video-container iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.videoContenedor{
+  display: flex;
+  justify-content: center;
+}
+.close-btn{
+  position: absolute;
+  top: -40px;
+  right: 0;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.links{
+  width: 100%;
+  margin: auto;
+}
+#actividades .links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#actividades .info .links > button{
+  margin: 5px;
+  font-size: 16px;
+  background: #faefef;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#actividades .info .links > button:hover{
+  transform: scale(1.05);
+}
+#actividades .info .links > button img{
+  border-radius: 10px;
+  width: 250px;
+}
+.iframe-container{
+  position: relative;
+  width: 80%;
+  height: 96%;
+  background: #b9caee;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px#1b445a;
+}
+.iframe-container iframe{
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.close-btn1{
+  position: absolute;
+  top: 60px;
+  left: 170px;
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  z-index: 1100;
+}
+header{
+  background-color: #255772;
+  z-index: 5;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  height: 70px;
+  font-size: 25px;
+}
+#lugar{
+  display: flex;
+  align-items: center;
+  margin-left: -11%;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -13%;
+}
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li{
+  position: relative;
+}
+nav ul li a{
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+}
+nav ul li a img{
+  height: 50px;
+}
+nav ul li a:hover{
+  background-color: #1b445a;
+}
+nav ul li ul{
+  display: none;
+  position: absolute;
+  background-color: #255772;
+  min-width: 100px;
+  z-index: 1;
+}
+nav ul li ul li{
+  width: 100%;
+}
+nav ul li:hover ul{
+  display: block;
+}
+.operaciones{
+  background-color: #faefef;
+  width: 70%;
+  margin: auto;
+  border-radius: 20px;  
+}
+#introduccion .info > h1{
+  display: flex;
+  justify-content: center;
+}
+.salto{
+  background-color: #b9caee;
+  width: 100%;
+}
+.info{
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+}
+.propiedades{
+  width: 95%;
+  margin: auto;
+  z-index: 5;
+}
+.propiedades ul{
+  list-style: none;
+  background-color: #b9caee;
+  border-radius: 20px;
+}
+.propiedades ul li{
+  padding: 15px;
+}
+.propiedades ul p{
+  display: flex;
+  justify-content: center;
+}
+#arriba{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-style: none;
+  display: none;
+}
+#arriba button{
+  background-color: #255772;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#arriba button:hover{
+  background-color: #1b445a;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+#arriba.show{
+  display: block;
+  opacity: 1;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a5b4d4;
+  width: 101%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: -1px;
+  right: 1px;
+  font-size: 14px;
+  height: 210px;
+  text-align: center;
+}
+footer > div{
+  width: 50%;
+  margin: 0px;
+  padding: 10px;
+}
